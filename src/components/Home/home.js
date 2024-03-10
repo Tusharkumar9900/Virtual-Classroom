@@ -48,10 +48,10 @@ export default function Home({currentUserId,setTheme,theme}) {
                           <div className="shift">
                               <div className={theme?"dark-text-head":"text-head"}>
                                 <img className="logo" alt="ms-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"></img>
-                                Microsoft<span className={theme?"dark-change-color":"change-color"}> Teams</span>
+                                Virtual<span className={theme?"dark-change-color":"change-color"}> Class</span>
                               </div>
                               <div className={theme?"dark-text-head":"text-head"}>
-                                Create <span className={theme?"dark-change-color":"change-color"}>Video Room</span>
+                                Join <span className={theme?"dark-change-color":"change-color"}>Class Room</span>
                               </div>
                               <button onClick={()=>{
                                   history.push('/chat')
@@ -64,10 +64,10 @@ export default function Home({currentUserId,setTheme,theme}) {
                                 <button onClick={join} className={theme?"dark-join-button":"join-button"}>Join Meeting</button>
                               </div>
                               <div className={theme?"dark-style":"style"}>
-                                <div>Chat with your friends</div>
-                                <div>Enjoy unlimited Video Calling</div>
-                                <div>Enjoy screen sharing</div>
-                                <div>Stay Connected</div>
+                                <div>Connect with your Teacher Easily</div>
+                                <div>Join the Class room and Start Learning Today!</div>
+                                <div>Screen Sharing , Audio Call are also available.</div>
+                                <div>FeedBack And Evaluation</div>
                               </div>
                           </div>
                       </div>
@@ -90,17 +90,8 @@ export default function Home({currentUserId,setTheme,theme}) {
                       <div className={theme?"dark-connect-main":"connect-main"}>
                         <div className={theme?"dark-connect-head-in":"connect-head-in"}>Stay Connected</div>
                       <div className={theme?"dark-connect-main-text":"connect-main-text"}>
-                      Microsoft Teams is an entirely new experience that brings
-                      together people, conversations and content—along with the
-                      tools that teams need—so they can easily collaborate
-                      to achieve more. It’s naturally integrated with the
-                      familiar Office applications and is built from the
-                      ground up on the Office 365 global, secure cloud. 
-                      Starting today, Microsoft Teams is available in
-                      preview in 181 countries and in 18 languages to 
-                      commercial customers with Office 365 Enterprise
-                      or Business plans, with general availability 
-                      expected in the first quarter of 2017.</div>
+                      In this virtual classroom, we aim to foster a sense of community and collaboration among our students, instructors, and staff, even in the digital space. We believe that staying connected is vital for a thriving learning environment. Here, you can engage in discussions, share insights, and collaborate on projects with your peers. Our virtual classroom offers various channels for communication, including discussion boards, chat rooms, and video conferencing, allowing you to connect with fellow learners and educators effortlessly. Whether you have questions about course materials, want to brainstorm ideas, or simply wish to connect with like-minded individuals, this is the place to be. Let's stay connected, support each other, and create meaningful learning experiences together!
+                     </div>
                       </div>
                   </div>
               </div>
@@ -126,15 +117,15 @@ export default function Home({currentUserId,setTheme,theme}) {
                     <img src={question2}></img>
                     <div className="contact-text">
                       <div className={theme?"dark-contact-text-head":"contact-text-head"}>Email Us</div>
-                      <div className={theme?"dark-contact-text-main":"contact-text-main"}>Write us if you have any queries.</div>
-                      <div className={theme?"dark-contact-email":"contact-email"}>anshika.microsoft@gmail.com</div>
+                      <div className={theme?"dark-contact-text-main":"contact-text-main"}>Write mail if u have any queries.</div>
+                      <div className={theme?"dark-contact-email":"contact-email"}>tusharkumar3432@gmail.com</div>
                     </div>
                   </div>
               </div>
               
               <div className={theme?"dark-landing-footer":"landing-footer"}>
                   <div className={theme?"dark-footer-outer":"footer-outer"}>
-                    Developed By Anshika Jain @ microsoft engage
+                    Developed By Tushar Kumar @CDAC
                   </div>
                 </div>
               </div>

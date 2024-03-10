@@ -99,13 +99,19 @@ io.on('connect',(socket)=>{
 })
 
 //connect to mongoDb
-mongoose.connect(process.env.MONGO_URL,{ useUnifiedTopology: true,useNewUrlParser:true })
-    .then(()=>{
-        console.log('database is connected')
-    })
-    .catch(error=>{
-        console.log(error)
-})
+const encodedPassword = encodeURIComponent('Nmklop@7799');
+
+mongoose.connect(
+   `mongodb+srv://tusharkumar3432:${encodedPassword}@cluster0.t4gdud3.mongodb.net/VirtualClassroom`,  
+   {
+       useNewUrlParser: true,
+       useUnifiedTopology: true
+   }
+).then(() => {
+   console.log('Database connected');
+}).catch((error) => {
+   console.error('Error connecting to the database:', error);
+});
 
 //api's
 require('./auth/loginRoutes')(app)

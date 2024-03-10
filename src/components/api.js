@@ -39,7 +39,7 @@ export const joinRoomAPI = async (roomId, participant) => {
 
 // send mail for connection
 export const sendMail = async (send) => {
-  const response = await fetch("http://localhost:5001/api/send", {
+  const response = await fetch("http://localhost:5000/api/send", {
     method: "POST",
     headers: {
       Accept: "application/json",

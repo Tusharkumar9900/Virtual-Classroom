@@ -122,7 +122,7 @@ export default function Features() {
                         </div>
                         <div className="landing-footer">
                                 <div className="footer-outer">
-                                Developed By Anshika Jain @ microsoft engage
+                                Developed By Tushar Kumar @CDAC
                                 </div>
                         </div>
               
